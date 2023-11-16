@@ -1,0 +1,16 @@
+{
+  "name": "Food App By Taha Al-Mulla",
+  "short_name": "طبخاتي",
+  "theme_color": "#ff7f00",
+  "background_color": "#F1f1f1",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
