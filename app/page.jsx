@@ -15,7 +15,7 @@ export default async function Home() {
           className="text-white font-extrabold underline"
           href={'https://tahamulla.vercel.app'}
         >
-          🧡 طه الملا
+          💙 طه الملا
         </Link>
       </div>
     </main>
