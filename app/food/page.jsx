@@ -137,7 +137,9 @@ export default function Food() {
   ];
 
   const handleClick = () => {
-    const randomIndex = Math.floor(Math.random() * foodOptions.length);
+    const randomBytes = new Uint8Array(1);
+    crypto.getRandomValues(randomBytes);
+    const randomIndex = randomBytes[0] % foodOptions.length;
     setRandomFood(foodOptions[randomIndex]);
   };
 
