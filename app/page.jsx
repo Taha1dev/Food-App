@@ -12,7 +12,7 @@ export default async function Home() {
         <p>&nbsp;صنع بكل حب بواسطة</p>{' '}
         <Link
           target="_blank"
-          className="text-white font-bold"
+          className="text-white font-extrabold underline"
           href={'https://tahamulla.vercel.app'}
         >
           🧡 طه الملا

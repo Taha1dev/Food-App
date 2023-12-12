@@ -143,7 +143,7 @@ export default function Food() {
 
   return (
     <button
-      className="p-16 my-16 bg-red-600 rounded-full text-3xl text-white font-bold"
+      className="p-16 my-16 bg-blue-100 text-blue-700 rounded-full text-3xl  font-bold outline-none focus:outline-none"
       onClick={handleClick}
     >
       <p>{randomFood.name ? randomFood.name : 'كبسي عليي'}</p>
