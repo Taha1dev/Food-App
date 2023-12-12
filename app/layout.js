@@ -1,7 +1,10 @@
 import './globals.css';
-import { Cairo } from 'next/font/google';
+import { Tajawal } from 'next/font/google';
 
-const cairo = Cairo({ subsets: ['latin'] });
+const tajwal = Tajawal({
+  subsets: ['latin'],
+  weight: ['200', '300', '400', '500', '700', '800', '900'],
+});
 
 export const metadata = {
   title: 'طبخاتي',
@@ -13,10 +16,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" type="image/x-icon" href="/logo.png"/>
+        <link rel="icon" type="image/x-icon" href="/logo.png" />
         <meta name="theme-color" content="#f1f1f1" />
       </head>
-      <body className={` ${cairo.className}`}>{children}</body>
+      <body className={tajwal.className}>{children}</body>
     </html>
   );
 }
